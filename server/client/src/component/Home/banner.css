@@ -1,0 +1,5 @@
+@media only screen and (max-width:600px) {
+    .wrpp>img{
+        height: 10vh;
+    }
+}

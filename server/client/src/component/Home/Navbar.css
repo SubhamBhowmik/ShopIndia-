@@ -1,0 +1,33 @@
+.containerr-{
+    margin-top: 55px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.itemscontainer{
+  
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+}
+.itemscontainer>p{
+    font-weight: 600;
+    flex: 1;
+    padding: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .itemscontainer{
+        width: 10vw;
+    }
+    .itemscontainer>img{
+        width: 10vw;
+        padding: 2px;
+    }
+    .itemscontainer>p{
+       font-size: 8px;
+    }
+  }

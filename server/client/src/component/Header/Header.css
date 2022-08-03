@@ -1,0 +1,134 @@
+.containerr{
+    height:75px;
+    background-color: black;
+    width: 100vw;
+}
+.wrapperr{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    margin-top: 13px;
+    justify-content: center;
+    padding-left:10vh;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+   
+}
+.center{
+  
+    margin-top: 5px;
+border-radius: 15px;
+flex: 1;
+}
+input{
+     padding: 5px;
+    padding-left: 5px;
+     text-align: left;
+     margin-left: 10px;
+     flex: 1;
+    width: max-content;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+.searchicon{
+   
+    border-style: none;
+    border-color: white;
+    color: rgb(241, 237, 237);
+    width:auto ;
+
+}
+.right{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    color: white;
+    flex: 1;
+   
+}
+.right button{
+    margin-top: 10px;
+    justify-content: center;
+    margin-right: 30px;
+}
+.more{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.cartcontainerr{
+ 
+    margin-right: 20px;
+}
+.List{
+ 
+
+ background-color: rgb(148, 221, 148);
+}
+.listcontainer{
+    width: 100%;
+}
+.listcard{
+    margin-left:35rem;
+    width: 40vw;
+    
+}
+@media only screen and (max-width: 600px){
+    .containerr{
+       
+        width: 100vw;
+        background-color: rgb(47, 165, 116);
+    }
+    .wrapperr{
+        width: 80vw;
+        justify-content: center;
+        display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .left{
+        font-size: 18px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-left: 3px;
+       
+    }
+    .right{
+        font-size: 18px;
+        flex: none;
+        margin-left: none;
+    }
+    .more{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .right button{
+        margin-top: 10px;
+        justify-content: center;
+        margin-right: 2px;
+    }
+    input{
+        padding: none;
+        text-transform: lowercase;
+        text-align: left;
+        margin-left: 5px;
+        flex: 1;
+       width:32vw;
+       border: none;
+       outline: none;
+
+   }
+
+}
